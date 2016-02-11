@@ -1,6 +1,6 @@
-# Airbnb React/JSX Style Guide
+# PreasenceLearning's AngularJS Style Guide
 
-*A mostly reasonable approach to React and JSX*
+*A mostly reasonable approach to AngularJS*
 
 ## Table of Contents
 

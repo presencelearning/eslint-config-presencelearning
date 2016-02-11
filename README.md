@@ -1,15 +1,11 @@
-# Airbnb JavaScript Style Guide() {
+# PresenceLearning JavaScript Style Guide() {
 
 *A mostly reasonable approach to JavaScript*
 
-[![Downloads](https://img.shields.io/npm/dm/eslint-config-airbnb.svg)](https://www.npmjs.com/package/eslint-config-airbnb)
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/airbnb/javascript?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-
 Other Style Guides
- - [ES5](es5/)
- - [React](react/)
- - [CSS & Sass](https://github.com/airbnb/css)
- - [Ruby](https://github.com/airbnb/ruby)
+ - [AngularJs](angularjs/)
+ - [CSS & Less](https://github.com/presencelearning/less)
+ - [Python](https://github.com/presencelearning/python)
 
 ## Table of Contents
 
@@ -153,25 +149,7 @@ Other Style Guides
     const item = {};
     ```
 
-  - [3.2](#3.2) <a name='3.2'></a> If your code will be executed in browsers in script context, don't use [reserved words](http://es5.github.io/#x7.6.1) as keys. It won't work in IE8. [More info](https://github.com/airbnb/javascript/issues/61). It’s OK to use them in ES6 modules and server-side code.
-
-   jscs rules: [`disallowIdentiferNames`](http://jscs.info/rule/disallowIdentifierNames).
-
-    ```javascript
-    // bad
-    const superman = {
-      default: { clark: 'kent' },
-      private: true,
-    };
-
-    // good
-    const superman = {
-      defaults: { clark: 'kent' },
-      hidden: true,
-    };
-    ```
-
-  - [3.3](#3.3) <a name='3.3'></a> Use readable synonyms in place of reserved words.
+  - [3.2](#3.2) <a name='3.2'></a> Use readable synonyms in place of reserved words.
 
    jscs rules: [`disallowIdentiferNames`](http://jscs.info/rule/disallowIdentifierNames).
 
@@ -193,7 +171,7 @@ Other Style Guides
     ```
 
   <a name="es6-computed-properties"></a>
-  - [3.4](#3.4) <a name='3.4'></a> Use computed property names when creating objects with dynamic property names.
+  - [3.3](#3.3) <a name='3.3'></a> Use computed property names when creating objects with dynamic property names.
 
     > Why? They allow you to define all the properties of an object in one place.
 
@@ -219,7 +197,7 @@ Other Style Guides
     ```
 
   <a name="es6-object-shorthand"></a>
-  - [3.5](#3.5) <a name='3.5'></a> Use object method shorthand.
+  - [3.4](#3.4) <a name='3.4'></a> Use object method shorthand.
 
     eslint rules: [`object-shorthand`](http://eslint.org/docs/rules/object-shorthand.html).
 
@@ -246,7 +224,7 @@ Other Style Guides
     ```
 
   <a name="es6-object-concise"></a>
-  - [3.6](#3.6) <a name='3.6'></a> Use property value shorthand.
+  - [3.5](#3.5) <a name='3.5'></a> Use property value shorthand.
 
     > Why? It is shorter to write and descriptive.
 
@@ -268,7 +246,7 @@ Other Style Guides
     };
     ```
 
-  - [3.7](#3.7) <a name='3.7'></a> Group your shorthand properties at the beginning of your object declaration.
+  - [3.6](#3.6) <a name='3.6'></a> Group your shorthand properties at the beginning of your object declaration.
 
     > Why? It's easier to tell which properties are using the shorthand.
 
@@ -297,7 +275,7 @@ Other Style Guides
     };
     ```
 
-  - [3.8](#3.8) <a name="3.8"></a> Only quote properties that are invalid identifiers.
+  - [3.7](#3.7) <a name="3.7"></a> Only quote properties that are invalid identifiers.
 
   > Why? In general we consider it subjectively easier to read. It improves syntax highlighting, and is also more easily optimized by many JS engines.
 
@@ -716,11 +694,12 @@ Other Style Guides
       if (!a) { a = 1; }
     }
 
-    // good
+    // better
     function f3(a) {
       const b = a || 1;
     }
 
+    // best
     function f4(a = 1) {
     }
     ```
@@ -1028,7 +1007,7 @@ Other Style Guides
 
   - [11.2](#11.2) <a name='11.2'></a> Don't use generators for now.
 
-    > Why? They don't transpile well to ES5.
+    > Why? They don't transpile well to ES5. TODO: need reference¡
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -1484,7 +1463,7 @@ Other Style Guides
 
 ## Whitespace
 
-  - [18.1](#18.1) <a name='18.1'></a> Use soft tabs set to 2 spaces.
+  - [18.1](#18.1) <a name='18.1'></a> Use soft tabs set to 4 spaces.
 
     eslint rules: [`indent`](http://eslint.org/docs/rules/indent.html).
 
@@ -1493,7 +1472,7 @@ Other Style Guides
     ```javascript
     // bad
     function () {
-    ∙∙∙∙const name;
+    ∙∙const name;
     }
 
     // bad
@@ -1503,7 +1482,7 @@ Other Style Guides
 
     // good
     function () {
-    ∙∙const name;
+    ∙∙∙∙const name;
     }
     ```
 
@@ -2408,12 +2387,12 @@ Other Style Guides
 **Tools**
 
   - Code Style Linters
-    + [ESlint](http://eslint.org/) - [Airbnb Style .eslintrc](https://github.com/airbnb/javascript/blob/master/linters/.eslintrc)
-    + [JSHint](http://jshint.com/) - [Airbnb Style .jshintrc](https://github.com/airbnb/javascript/blob/master/linters/.jshintrc)
-    + [JSCS](https://github.com/jscs-dev/node-jscs) - [Airbnb Style Preset](https://github.com/jscs-dev/node-jscs/blob/master/presets/airbnb.json)
+    + [ESlint](http://eslint.org/) - [PresenceLearning Style .eslintrc](https://github.com/presencelearning/javascript/blob/master/linters/.eslintrc)
+    + [JSHint](http://jshint.com/) - [PresenceLearning Style .jshintrc](https://github.com/presencelearning/javascript/blob/master/linters/.jshintrc)
 
 **Other Style Guides**
 
+  - [Airbnb Style Guide](http://https://github.com/airbnb/javascript)
   - [Google JavaScript Style Guide](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
   - [jQuery Core Style Guidelines](http://contribute.jquery.org/style-guide/js/)
   - [Principles of Writing Consistent, Idiomatic JavaScript](https://github.com/rwaldron/idiomatic.js)
