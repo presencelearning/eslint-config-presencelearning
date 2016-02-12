@@ -1,25 +1,36 @@
 {
-  "name": "presencelearning-style",
-  "version": "3.0.0",
-  "description": "A mostly reasonable approach to JavaScript.",
+  "name": "eslint-config-presencelearning",
+  "version": "4.0.0",
+  "description": "PresenceLearning's ESLint config, following our styleguide",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "publish-all": "npm publish && cd ./packages/eslint-config-presencelearning && npm publish"
+    "lint": "eslint .",
+    "tests-only": "babel-tape-runner ./test/test-*.js",
+    "test": "parallelshell 'npm run lint' 'npm run tests-only'"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/presencelearning/javascript.git"
+    "url": "https://github.com/presencelearning/javascript"
   },
   "keywords": [
-    "style guide",
-    "lint",
+    "eslint",
+    "eslintconfig",
+    "config",
     "presencelearning",
-    "es6",
-    "es2015",
-    "angularJS"
+    "javascript",
+    "styleguide"
   ],
-  "author": "Harrison Shoff <hi@hshoff.com> (https://twitter.com/hshoff)",
+  "author": "Jake Teton-Landis (https://twitter.com/@jitl)",
   "contributors": [
+    {
+      "name": "Jake Teton-Landis",
+      "url": "https://twitter.com/jitl"
+    },
+    {
+      "name": "Jordan Harband",
+      "email": "ljharb@gmail.com",
+      "url": "http://ljharb.codes"
+    },
     {
         "name": "Brian Chapman",
         "email": "brian@presencelearning.com"
@@ -29,5 +40,16 @@
   "bugs": {
     "url": "https://github.com/presencelearning/javascript/issues"
   },
-  "homepage": "https://github.com/presencelearning/javascript"
+  "homepage": "https://github.com/presencelearning/javascript",
+  "devDependencies": {
+    "babel-tape-runner": "1.2.0",
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.12.0",
+    "react": "^0.13.3",
+    "tape": "^4.2.2",
+    "parallelshell": "^2.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=1.0.0"
+  }
 }
