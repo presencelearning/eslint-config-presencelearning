@@ -46,7 +46,7 @@ module.exports = {
     // https://github.com/eslint/eslint/blob/master/docs/rules/object-shorthand.md
     'object-shorthand': [1, 'always'],
     // suggest using arrow functions as callbacks
-    'prefer-arrow-callback': 2,
+    'prefer-arrow-callback': 1,
     // suggest using of const declaration for variables that are never modified after declared
     'prefer-const': 2,
     // suggest using the spread operator instead of .apply()
