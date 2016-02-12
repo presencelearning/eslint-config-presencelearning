@@ -1,6 +1,12 @@
 5.1.0 / TBD
  - [rulechange] remove no-param-reassign "props" requirement - it will be extreamly difficult to refactor code to use pure functions. Keeping the no reassign as warning.
- - [globals] Add globals _, angular
+ - [globals] Add globals _, 
+ - [to warn] Changed prefer-arrow-callback from error to warn
+ - [to warn] Changed no-undef from error to warn
+ - [to warn] Changed no-mixed-spaces-and-tabs from error to warn
+ - [to warn] Changed no-multi-spaces to warning from error
+ - [to warn] Changed vars-on-top to warning from error
+ - [to warn] Changed no-unused-vars to warning from error
  - [to warn] Changed comma-style to warning from error
  - [to warn] Changed comma-spacing to warning from error
  - [to warn] Changed camelcase to warning from error

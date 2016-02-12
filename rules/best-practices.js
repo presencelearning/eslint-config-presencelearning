@@ -57,7 +57,7 @@ module.exports = {
     // disallow creation of functions within loops
     'no-loop-func': 2,
     // disallow use of multiple spaces
-    'no-multi-spaces': 2,
+    'no-multi-spaces': 1,
     // disallow use of multiline strings
     'no-multi-str': 2,
     // disallow reassignments of native objects
@@ -106,7 +106,7 @@ module.exports = {
     // require use of the second argument for parseInt()
     'radix': 2,
     // requires to declare all vars on top of their containing scope
-    'vars-on-top': 2,
+    'vars-on-top': 1,
     // require immediate function invocation to be wrapped in parentheses
     // http://eslint.org/docs/rules/wrap-iife.html
     'wrap-iife': [2, 'outside'],
