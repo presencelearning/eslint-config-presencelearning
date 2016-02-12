@@ -110,7 +110,7 @@ module.exports = {
     // require or disallow spaces inside parentheses
     'space-in-parens': [2, 'never'],
     // require spaces around operators
-    'space-infix-ops': 2,
+    'space-infix-ops': 1,
     // require a space after return, throw, and case
     'space-return-throw-case': 2,
     // Require or disallow spaces before/after unary operators
