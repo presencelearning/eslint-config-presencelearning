@@ -1,3 +1,20 @@
+5.1.0 / TBD
+ - [to warn] Changed space-before-function-paren from error to warning
+ - [to warn] Changed comma-dangle from error to warning
+ - [to warn] Changed spaced-comment from error to warning
+ - [to warn] Changed max-len from error to warning
+ - [rulechange] remove 3.1 disallowIdentifierNames since we don't support ie8
+ - [rulechange] change indent from 2 to 4 spaces
+ - [rulechange] disallowSpacesInFunction:beforeOpeningRoundBrace,
+                requireSpacesInFunction:beforeOpeningCurlyBrace
+ 
+
+5.0.0 / 2016-01-26
+==================
+ - Forked from https://github.com/airbnb/javascript/commits/master (sha 79a6bfa101848a6d8e7af45abf2063982c838ee0)
+ - [formatting] update references from airbnb to PresenceLearning
+
+
 4.0.0 / 2016-01-22
 ==================
  - [breaking] require outer IIFE wrapping; flesh out guide section

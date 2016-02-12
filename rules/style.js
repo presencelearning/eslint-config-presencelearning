@@ -37,7 +37,7 @@ module.exports = {
     'linebreak-style': 0,
     // specify the maximum length of a line in your program
     // https://github.com/eslint/eslint/blob/master/docs/rules/max-len.md
-    'max-len': [2, 100, 2, {
+    'max-len': [1, 100, 2, {
       'ignoreUrls': true,
       'ignoreComments': false
     }],
@@ -106,7 +106,7 @@ module.exports = {
     'space-before-blocks': 2,
     // require or disallow space before function opening parenthesis
     // https://github.com/eslint/eslint/blob/master/docs/rules/space-before-function-paren.md
-    'space-before-function-paren': [2, { 'anonymous': 'always', 'named': 'never' }],
+    'space-before-function-paren': [1, { 'anonymous': 'always', 'named': 'never' }],
     // require or disallow spaces inside parentheses
     'space-in-parens': [2, 'never'],
     // require spaces around operators
@@ -116,7 +116,7 @@ module.exports = {
     // Require or disallow spaces before/after unary operators
     'space-unary-ops': 0,
     // require or disallow a space immediately following the // or /* in a comment
-    'spaced-comment': [2, 'always', {
+    'spaced-comment': [1, 'always', {
       'exceptions': ['-', '+'],
       'markers': ['=', '!']           // space here to support sprockets directives
     }],
