@@ -15,7 +15,7 @@ module.exports = {
     // enforces consistent naming when capturing the current execution context
     'consistent-this': 0,
     // enforce newline at the end of file, with no multiple empty lines
-    'eol-last': 2,
+    'eol-last': 1,
     // require function expressions to have a name
     'func-names': 1,
     // enforces use of function declarations or expressions
@@ -84,7 +84,7 @@ module.exports = {
     // enforce operators to be placed before or after line breaks
     'operator-linebreak': 0,
     // enforce padding within blocks
-    'padded-blocks': [2, 'never'],
+    'padded-blocks': [1, 'never'],
     // require quotes around object literal property names
     // http://eslint.org/docs/rules/quote-props.html
     'quote-props': [2, 'as-needed', { 'keywords': false, 'unnecessary': true, 'numbers': false }],

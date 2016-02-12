@@ -4,5 +4,9 @@ module.exports = {
     'eslint-config-presencelearning/rules/strict',
     'eslint-config-presencelearning/rules/angularjs',
   ].map(require.resolve),
-  rules: {}
+  rules: {},
+  globals: {
+        "_": true,
+        "angular": false
+    }
 };
