@@ -1,15 +1,15 @@
 module.exports = {
   'rules': {
     // enforce spacing inside array brackets
-    'array-bracket-spacing': [2, 'never'],
+    'array-bracket-spacing': [1, 'never'],
     // enforce one true brace style
-    'brace-style': [2, '1tbs', { 'allowSingleLine': true }],
+    'brace-style': [1, '1tbs', { 'allowSingleLine': true }],
     // require camel case names
-    'camelcase': [2, { 'properties': 'never' }],
+    'camelcase': [1, { 'properties': 'never' }],
     // enforce spacing before and after comma
-    'comma-spacing': [2, { 'before': false, 'after': true }],
+    'comma-spacing': [1, { 'before': false, 'after': true }],
     // enforce one true comma style
-    'comma-style': [2, 'last'],
+    'comma-style': [1, 'last'],
     // disallow padding inside computed properties
     'computed-property-spacing': [2, 'never'],
     // enforces consistent naming when capturing the current execution context
@@ -26,11 +26,8 @@ module.exports = {
     // this option sets a specific tab width for your code
     // https://github.com/eslint/eslint/blob/master/docs/rules/indent.md
     'indent': [2, 4, { 'SwitchCase': 1, 'VariableDeclarator': 1 }],
-    // specify whether double or single quotes should be used in JSX attributes
-    // http://eslint.org/docs/rules/jsx-quotes
-    'jsx-quotes': [2, 'prefer-double'],
     // enforces spacing between keys and values in object literal properties
-    'key-spacing': [2, { 'beforeColon': false, 'afterColon': true }],
+    'key-spacing': [1, { 'beforeColon': false, 'afterColon': true }],
     // enforces empty lines around comments
     'lines-around-comment': 0,
     // disallow mixed 'LF' and 'CRLF' as linebreaks
@@ -89,7 +86,7 @@ module.exports = {
     // http://eslint.org/docs/rules/quote-props.html
     'quote-props': [2, 'as-needed', { 'keywords': false, 'unnecessary': true, 'numbers': false }],
     // specify whether double or single quotes should be used
-    'quotes': [2, 'single', 'avoid-escape'],
+    'quotes': [1, 'single', 'avoid-escape'],
     // require identifiers to match the provided regular expression
     'id-match': 0,
     // enforce spacing before and after semicolons
@@ -99,9 +96,9 @@ module.exports = {
     // sort variables within the same declaration block
     'sort-vars': 0,
     // require a space before certain keywords
-    'space-before-keywords': [2, 'always'],
+    'space-before-keywords': [1, 'always'],
     // require a space after certain keywords
-    'space-after-keywords': [2, 'always'],
+    'space-after-keywords': [1, 'always'],
     // require or disallow space before blocks
     'space-before-blocks': 2,
     // require or disallow space before function opening parenthesis

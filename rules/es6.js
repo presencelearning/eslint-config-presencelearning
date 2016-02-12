@@ -44,7 +44,7 @@ module.exports = {
     'no-var': 1,
     // require method and property shorthand syntax for object literals
     // https://github.com/eslint/eslint/blob/master/docs/rules/object-shorthand.md
-    'object-shorthand': [2, 'always'],
+    'object-shorthand': [1, 'always'],
     // suggest using arrow functions as callbacks
     'prefer-arrow-callback': 2,
     // suggest using of const declaration for variables that are never modified after declared

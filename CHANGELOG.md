@@ -1,6 +1,17 @@
 5.1.0 / TBD
  - [rulechange] remove no-param-reassign "props" requirement - it will be extreamly difficult to refactor code to use pure functions. Keeping the no reassign as warning.
  - [globals] Add globals _, angular
+ - [to warn] Changed comma-style to warning from error
+ - [to warn] Changed comma-spacing to warning from error
+ - [to warn] Changed camelcase to warning from error
+ - [to warn] Changed array-bracket-spacing to warning from error
+ - [to warn] Changed brace-style to warning from error
+ - [to warn] Changed key-spacing to warning from error
+ - [to warn] Changed quotes to warning from error
+ - [to warn] Changed comma-spacing to warning from error
+ - [to warn] Changed space-before-keywords to warning from error
+ - [to warn] Changed space-after-keywords to warning from error
+ - [to warn] Changed object-shorthand to warning from error
  - [to warn] Changed space-infix-ops to warning from error
  - [to warn] Changed no-var to warning from error
  - [to warn] Changed padded-blocks to warning from error
@@ -14,6 +25,7 @@
  - [rulechange] change indent from 2 to 4 spaces
  - [rulechange] disallowSpacesInFunction:beforeOpeningRoundBrace,
                 requireSpacesInFunction:beforeOpeningCurlyBrace
+ - [rulechange] remove JSX rules
  
 
 5.0.0 / 2016-01-26
