@@ -96,9 +96,9 @@ module.exports = {
     // sort variables within the same declaration block
     'sort-vars': 0,
     // require a space before certain keywords
-    'space-before-keywords': [1, 'always'],
-    // require a space after certain keywords
-    'keyword-spacing': [1, 'always'],
+    // require a space
+    // after certain keywords
+    'keyword-spacing': 1,
     // require or disallow space before blocks
     'space-before-blocks': 2,
     // require or disallow space before function opening parenthesis
