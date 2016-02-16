@@ -20,7 +20,7 @@ and AngularJS. It requires `eslint` and `eslint-plugin-angular`.
 
 ### eslint-config-presencelearning/base
 
-Lints ES6+ but does not lint AngularJS. Requires `eslint`.
+Lints ES6+ but *does not lint AngularJS*. Requires `eslint`.
 
 1. `npm install --save-dev eslint-config-presencelearning eslint`
 2. add `"extends": "presencelearning/base"` to your .eslintrc
