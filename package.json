@@ -48,8 +48,5 @@
     "react": "^0.13.3",
     "tape": "^4.2.2",
     "parallelshell": "^2.0.0"
-  },
-  "peerDependencies": {
-    "eslint": ">=2.0.0"
   }
 }
