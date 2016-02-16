@@ -11,9 +11,12 @@ We export three ESLint configurations for your usage.
 Our default export contains all of our ESLint rules, including EcmaScript 6+
 and AngularJS. It requires `eslint` and `eslint-plugin-angular`.
 
-1. `npm install --save-dev git+ssh://git@github.com:presencelearning/javascript.git#air-bnb eslint-plugin-angular eslint`
-2. add `"extends": "presencelearning"` to your .eslintrc
-3. test by running `eslint path-to-js-file`. Note that eslint must not be installed globally or you need to run `./node_modules/.bin/eslint path-to-js-file`
+1. `npm install --save-dev git+ssh://git@github.com:presencelearning/eslint-config-presencelearning.git eslint-plugin-angular eslint`
+2. add `"extends": "presencelearning"` to your .eslintrc. Example, your .eslintrc file should look like this:
+    {
+        "extends": "presencelearning"
+    }
+3. test by running `eslint <change-this-to-your-path-to-js-file>`. Note that eslint must not be installed globally or you need to run `./node_modules/.bin/eslint <change-this-to-your-path-to-js-file>`
 
 ### eslint-config-presencelearning/base
 

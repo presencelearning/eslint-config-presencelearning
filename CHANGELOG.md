@@ -1,5 +1,7 @@
 5.1.0 / TBD
  - [rulechange] remove no-param-reassign "props" requirement - it will be extreamly difficult to refactor code to use pure functions. Keeping the no reassign as warning.
+ - [migrate to 2.0] changed space-before-keywords and space-after-keywords to keyword-spacing, removed space-return-throw-case (part of keyword-spacing now)
+ - [migrate to 2.0] Changed no-empty-labels to 'no-labels': [2, {"allowLoop": true, "allowSwitch": true}]
  - [globals] Add globals _, 
  - [to warn] Changed prefer-arrow-callback from error to warn
  - [to warn] Changed no-undef from error to warn
