@@ -11,7 +11,7 @@ We export three ESLint configurations for your usage.
 Our default export contains all of our ESLint rules, including EcmaScript 6+
 and AngularJS. It requires `eslint` and `eslint-plugin-angular`.
 
-1. `npm install --save-dev git+ssh://git@github.com:presencelearning/eslint-config-presencelearning.git eslint-plugin-angular eslint`
+1. `npm install --save-dev eslint-config-presencelearning eslint-plugin-angular eslint`
 2. add `"extends": "presencelearning"` to your .eslintrc. Example, your .eslintrc file should look like this:
     {
         "extends": "presencelearning"
