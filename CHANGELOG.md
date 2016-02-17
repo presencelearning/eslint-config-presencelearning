@@ -29,6 +29,7 @@
  - [to warn] Changed comma-dangle from error to warning
  - [to warn] Changed spaced-comment from error to warning
  - [to warn] Changed max-len from error to warning
+ - [rulechange] Changed max-len to 120 from 100.
  - [rulechange] remove 3.1 disallowIdentifierNames since we don't support ie8
  - [rulechange] change indent from 2 to 4 spaces
  - [rulechange] disallowSpacesInFunction:beforeOpeningRoundBrace,
