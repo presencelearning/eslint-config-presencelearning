@@ -36,7 +36,8 @@ module.exports = {
     // https://github.com/eslint/eslint/blob/master/docs/rules/max-len.md
     'max-len': [1, 120, 2, {
       'ignoreUrls': true,
-      'ignoreComments': false
+      'ignoreComments': false,
+      'ignoreTrailingComments': true
     }],
     // specify the maximum depth callbacks can be nested
     'max-nested-callbacks': 0,

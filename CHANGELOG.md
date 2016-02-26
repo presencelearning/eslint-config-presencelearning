@@ -1,4 +1,10 @@
-5.1.0 / TBD
+5.1.1 / 2016-02-26
+==================
+ - [rulechange] allow es6 module statements
+ - [rulechange] add ignoreTrailingComments: true to max-len
+
+5.1.0 / 2/17/2016
+==================
  - [rulechange] remove no-param-reassign "props" requirement - it will be extreamly difficult to refactor code to use pure functions. Keeping the no reassign as warning.
  - [migrate to 2.0] changed space-before-keywords and space-after-keywords to keyword-spacing, removed space-return-throw-case (part of keyword-spacing now)
  - [migrate to 2.0] Changed no-empty-labels to 'no-labels': [2, {"allowLoop": true, "allowSwitch": true}]
