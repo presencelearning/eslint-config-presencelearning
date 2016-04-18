@@ -1,3 +1,7 @@
+5.1.2 / 2016-02
+ - [rulechange] don't require templates, allow '+' operators
+ - [rulechange] change max-len from 120 to 150
+
 5.1.1 / 2016-02-26
 ==================
  - [rulechange] allow es6 module statements

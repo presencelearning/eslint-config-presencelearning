@@ -43,7 +43,7 @@ module.exports = {
         'prefer-reflect': 0,
         // suggest using template literals instead of string concatenation
         // http://eslint.org/docs/rules/prefer-template
-        'prefer-template': 2,
+        'prefer-template': 0,
         // disallow generator functions that do not have yield
         'require-yield': 0
     }
